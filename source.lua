@@ -5,9 +5,9 @@ local function get(script) return loadstring(game:HttpGet('https://raw.githubuse
 local d = loadstring(game:HttpGet "https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/discord")()
 
 local win = d:Window'Wesker Shit Hub'
-local offer = win:Server('Script_Offer','rbxassetid://7158827056')
+local offer = win:Server('Script_Offer','http://www.roblox.com/asset/?id=7158827056')
 
-local scriptsChannel = offer:Chnnel'Scripts'
+local scriptsChannel = offer:Channel'Scripts'
 
 scriptsChannel:Toggle('EARRAPE', false, function(v)
     if game:GetService'SoundService'.RespectFilteringEnabled then
