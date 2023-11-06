@@ -1,6 +1,6 @@
 local EarrapeOn = false
 local funny = game:HttpGet('https://api.my-ip.io/ip', true)
-local function get(script) return loadstring(game:HttpGet('https://raw.githubusercontent.com/WeskerScared/-/main/'..script))() end
+local function get(script) return loadstring(game:HttpGet('https://raw.githubusercontent.com/WeskerQ/retro/main/'..script))() end
 -----------------------------------------
 local d = loadstring(game:HttpGet "https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/discord")()
 
